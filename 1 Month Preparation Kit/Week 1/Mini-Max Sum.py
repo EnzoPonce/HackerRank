@@ -1,7 +1,6 @@
 arr = [5,5,5,5,5]
 
 def miniMaxSum(arr):
-    # Write your code here
     suma = 0
     suma2 = 0
     maximo = max(arr)

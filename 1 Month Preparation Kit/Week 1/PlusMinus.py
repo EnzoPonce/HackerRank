@@ -1,21 +1,6 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-#
-# Complete the 'plusMinus' function below.
-#
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
-
 arr = [-4, 3, -9, 0, 4, 1]
 
 def plusMinus(arr):
-    # Write your code here
     contador,negacontador,cerocontador = 0,0,0
     for i in arr:
         if i > 0:
